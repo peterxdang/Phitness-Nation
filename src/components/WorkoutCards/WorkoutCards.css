@@ -1,0 +1,9 @@
+.expansion-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.expansion-single {
+    display: flex;
+}

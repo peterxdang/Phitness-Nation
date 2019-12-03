@@ -1,0 +1,378 @@
+body {
+font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0px;
+    background-color: #84c8b9
+}
+
+.app-header {
+    background-image: URL('./phitnessnationheader.png');
+    background-size: 120%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: #313b47;
+    padding-top: 5%;
+    width: 101%;
+    padding-right: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+
+.content {
+    margin-top: 117px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+form {
+    /* background-color: #dbd5d5;
+    width: 30%; */
+    height: 250px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.add-phil-wrapper {
+    display: flex;
+}
+
+.log-in, .log-out, .register {
+  background-color: #00acb0;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+    font-Family: 'PT Sans Narrow', sans-serif;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #008183;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.workout-preview {
+    padding: 5%;
+}
+
+.workout-preview-btns {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.exercise-page {
+    padding: 5%;
+}
+
+.exercise-feedback {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.exercise-buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+
+.workout-summary {
+    padding: 5%;
+}
+
+.workout-summary-h3 {
+   text-align: center;
+}
+
+.workout-summary-h1 {
+    font-size: 36px;
+}
+
+.workout-summary-h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.workout-feedback {
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+.workout-feedback-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.submit-workout-btn {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    font-size: 24px;
+}
+
+.clients-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-client-wrapper {
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.client-header1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.clientCard {
+    text-align: center;
+    border: 1px solid #313b47;
+    border-radius: 1px;
+    margin: 3%;
+}
+
+.client-profile-wrapper {
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.bigAvatar {
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.client-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.admin-exercises {
+    background-color: #d2d2d4;
+    width: 100%;
+    /* border: 1px solid #313b47; */
+    margin: 3%;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.13) ,1px 2px 2px rgba(0,0,0,.1) , -1px -2px 2px rgba(0,0,0,.05) ;
+}
+
+.admin-exercises-tr:nth-child(even){
+    background-color: #84c8b9
+}
+
+.admin-exercises-td {
+
+    padding: 2%;
+}
+
+.archive-exercise {
+        border: 1px solid #313b47;
+        float: right;
+}
+
+.admin-exercise-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.newUserInput {
+    border: 1px solid #3d6363
+}
+
+.editExerciseInput {
+    border: 1px solid #3d6363;
+    width: 310px;
+    margin: 3%;
+}
+
+.edit-ex-modal {
+    text-align: left;
+}
+
+.edit-exercise-modal {
+    width: 100%;
+}
+
+.newUserBtns {
+    background-color: #3d6363;
+    color: #d2d2d4
+}
+
+.add-exercise-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.archived-users-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.styled-h5{
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.archived-btns {
+    text-align: center;
+    border: 1px solid #313b47;
+    border-radius: 1px;
+    margin: 3%;
+}
+
+.add-workout-btn {
+    margin: 0 auto;
+    display: flex;
+}
+
+.admin-compliance-chart {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.admin-compliance-h4 {
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+}
+
+.exercise-workout-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.exercise-workout-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin-add-workout {
+    padding: 5%;
+}
+
+.exercise-workout-int {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-ex-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.history-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.philolog {
+    height: 100%;
+    width: 100%;
+}
+
+.philput {
+    border: 1px solid #3d6363;
+    width: 100%
+}
+
+.phil-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.newPhilBtns {
+        background-color: #3d6363;
+    color: #d2d2d4;
+}
+
+.newPhilBtnWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.add-workout-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2%
+}
+
+h2 {
+        font-family: 'Roboto Slab', serif;
+}
+
+.about-page {
+    display: flex;
+    padding: 5%;
+}
+
+
+.add-exercise-workout-btn{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.purpleGradient {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formFull {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    font-Family: 'PT Sans Narrow', sans-serif;
+}
